@@ -6,11 +6,6 @@ import React from 'react'
 // import Spin from "../images/spiral.png"
 
 export default function Bear(props) {
-    // constructor(props) {
-    //     super(props);
-    //     this.getBoundingClientRect = this.getBoundingClientRect.bind(this);
-    // }
-
 
     return (
         <div className="bear_comp">
