@@ -18,7 +18,8 @@ export default function LoginCard() {
     const [loading, setLoading] = useState(false);
     // const navigate = useNavigate()
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
         console.log("form submitted");
     }
 
