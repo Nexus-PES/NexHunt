@@ -1,9 +1,13 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import LoginCard from '../components/LoginCard'
 
-const index = () => {
+
+export default function Login() {
   return (
-    <div>index</div>
+    <div>
+        <LoginCard />
+        <Footer />
+    </div>
   )
 }
-
-export default index
