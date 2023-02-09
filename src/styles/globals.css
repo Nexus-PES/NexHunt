@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #101010; */
-  background-image: linear-gradient(#2a2a72,#04619f , #009ffd);
+  background-image: linear-gradient(#2a2a72, #04619f, #009ffd);
 }
 
 code {
@@ -108,8 +108,8 @@ code {
   font-family: 'Raleway', sans-serif;
   font-size: 2.3em;
   letter-spacing: 10px;
-  padding-left:30px;
-  width:380px;
+  padding-left: 30px;
+  width: 380px;
 }
 
 .header_left {
@@ -180,7 +180,7 @@ code {
   font-weight: bolder;
   margin: 0 20px;
   font-size: 55px;
-  color:#fff;
+  color: #fff;
   /* -webkit-text-fill-color: transparent
   user-select: none;
   -moz-user-select: none;
@@ -657,13 +657,13 @@ code {
     display: none;
   }
 
-  .header_title{
-    padding-left:0;
-    width:200px;
+  .header_title {
+    padding-left: 0;
+    width: 200px;
   }
-  
-  .header_left{
-    padding-right:0;
+
+  .header_left {
+    padding-right: 0;
   }
 }
 
@@ -833,10 +833,14 @@ code {
   border-radius: 10px 0 10px 0;
 }
 
+.login-alignment{
+  position: relative;
+}
+
 .nox_login {
   height: 0;
-  position: relative;
-  top: -190px;
+  position: absolute;
+  top: -210px;
   left: -270px;
   z-index: -1;
 }

@@ -43,7 +43,7 @@ export default function Header({name}) {
                 <div className="header_left">
                     <TimeLeft />
                     <Profile name={name} />
-                    <button onClick={handleLogout}><img className="header_logout" src="assets/images/logout.png" alt="logout" /></button>
+                    <Link href='/' onClick={handleLogout}><img className="header_logout" src="assets/images/logout.png" alt="logout" /></Link>
                 </div>
             </div>
             <Progress />

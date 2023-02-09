@@ -54,14 +54,16 @@ export default function LoginCard() {
                     <label className="logincard_label" htmlFor="Email">Email</label>
                     <input className="logincard_input" placeholder="Email" ref={emailRef} type="email" name="Email" />
                 </div>
-                <div className="login_card_label2 logincard_label_div">
-                    <div className="nox_login" >
-                        <Bear pupils="display_eyes" pupil_animate="eyes_peep" arm_animate="close_eyes" />
-                    </div>
-                    <img className="login_pass" src="assets/images/icons8-lock.png" alt="loginpic" />
-                    <label className="logincard_label" htmlFor="Password">Password</label>
-                    <input className="logincard_input" placeholder="Password" type="password" name="Password" ref={passwdRef} />
-                    <div className="login_nox">
+                <div className="login-alignment">
+                    <div className="login_card_label2 logincard_label_div">
+                        <div className="nox_login" >
+                            <Bear pupils="display_eyes" pupil_animate="eyes_peep" arm_animate="close_eyes" />
+                        </div>
+                        <img className="login_pass" src="assets/images/icons8-lock.png" alt="loginpic" />
+                        <label className="logincard_label" htmlFor="Password">Password</label>
+                        <input className="logincard_input" placeholder="Password" type="password" name="Password" ref={passwdRef} />
+                        <div className="login_nox">
+                        </div>
                     </div>
                 </div>
                 <div className="logincard_btn_div">
