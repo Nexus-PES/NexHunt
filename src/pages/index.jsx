@@ -27,6 +27,7 @@ export default function Login() {
     const interval = setInterval(() => {
       const now = new Date();
       const difference = eventStart - now;
+      
 
       const d = Math.floor(difference / (1000 * 60 * 60 * 24));
       setDays(d);
