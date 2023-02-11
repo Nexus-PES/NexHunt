@@ -9,7 +9,7 @@ function TimeLeft() {
 
     setInterval(() => {
         var currentTime = Number(Math.floor(new Date().getTime() / 1000).toFixed(0));
-        setTimeRemaining(finalTime - currentTime)
+        setTimeRemaining(finalTime - currentTime);
     }, 1000);
 
 
