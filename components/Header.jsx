@@ -1,4 +1,6 @@
-import React,{useState} from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import TimeLeft from './TimeLeft';
 import Profile from './Profile';
 import Progress from './Progress';

@@ -23,7 +23,21 @@ code {
   background-color: #04619f;
 }
 
-.logincard_btn_div .nav_links_comp .sc-bcXHqe {
+.nav_unlisted{
+   text-decoration: none;
+  display:"flex";
+  align-items:"center";
+  justify-content:"center";
+  margin:"3px";
+}
+
+.link_style{
+  align-items: "center";
+  justify-content: "center";
+  text-decoration: "none";
+}
+
+.logincard_btn_div .nav_links_comp .nav_unlisted {
   padding: 0;
   margin: 8px;
 }
@@ -32,7 +46,7 @@ code {
   color: #fff;
 }
 
-.nav_links_comp .sc-bcXHqe a {
+.nav_links_comp .nav_unlisted a {
   color: #01030D;
 }
 
@@ -90,7 +104,7 @@ code {
   height:30px;
 } */
 
-.nav_links_comp .sc-bcXHqe {
+.nav_links_comp .nav_unlisted {
   padding: 0 15px;
 }
 
