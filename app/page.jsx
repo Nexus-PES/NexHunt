@@ -40,21 +40,11 @@ export default function Login() {
 	}, []);
 
 	return event ? (
-		// <div>
-		// 	<LoginCard />
-		// 	<Footer />
-		// </div>
-		<img
-			className="notfound_img_img"
-			src="assets/images/404_img.png"
-			alt="error"
-		/>
+		<div>
+			<LoginCard />
+			<Footer />
+		</div>
 	) : (
-		// <PreEvent days={days} hours={hours} minutes={minutes} seconds={seconds} />
-		<img
-			className="notfound_img_img"
-			src="assets/images/404_img.png"
-			alt="error"
-		/>
+		<PreEvent days={days} hours={hours} minutes={minutes} seconds={seconds} />
 	);
 }
