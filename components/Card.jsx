@@ -16,7 +16,7 @@ export default function Card(props) {
   return (
     <NavUnlisted >
 
-      <Link href={props.que_no} style={linkStyle}>
+      <Link href= {`\challenges\\${props.que_no}`} style={linkStyle}>
         <div className="card_comp">
           <div>
             <div className="card_ques_num">Question {props.qnumber}</div>
